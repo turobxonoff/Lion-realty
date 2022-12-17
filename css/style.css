@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+}
+
+header {
+  background-image: url("../images/Rectangle 16.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+}
+header .navbar {
+  padding-top: 40px;
+}
+header .navbar h6 {
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 10px 10px;
+}
+header .navbar .lionimg {
+  margin-left: 20px;
+}
+header .navbar .icons .link {
+  color: #FFFFFF;
+  padding-right: 10px;
+}
+header .home {
+  padding-top: 70px;
+}
+header .home .header_link {
+  color: #FFFFFF;
+}
+header .home h1 {
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 55px;
+  padding: 20px 170px 20px 0;
+}
+header .home .col-sm-3 h5 {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+header .home .col-sm-3 p {
+  color: #FFFFFF;
+}
+header .home .buttons {
+  margin-top: 40px;
+}
+header .home .btn1 {
+  border-radius: 50px;
+}
+header .home .d-flex a {
+  margin: 50px 10px 0 30px;
+}
+header .home .footer_link {
+  color: #FFFFFF;
+  align-items: center;
+}
+header .home .image {
+  margin: 150px 0 0 150px;
+}
+
+.main h2 {
+  font-weight: 700;
+  padding-top: 50px;
+}
+.main .img {
+  margin-top: 30px;
+}
+.main .col-sm-4, .main .col-sm-8 {
+  margin-top: 30px;
+}
+
+.magazine .container {
+  box-shadow: 0px -8px 14px rgba(53, 70, 94, 0.02), 0px 50px 80px rgba(53, 70, 94, 0.1);
+  border-radius: 5px;
+  margin-top: 100px;
+}
+.magazine .container h2 {
+  color: #35465E;
+  font-weight: 700;
+  padding: 30px 0 0;
+}
+.magazine .container .paragraph {
+  color: #35465E;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 30px 0 0;
+}
+.magazine .container .btn {
+  margin-top: 10px;
+  padding: 10px 40px;
+}
+.magazine .container .img1 {
+  top: 200px;
+  left: 380px;
+}
+.magazine .container .img2 {
+  margin-left: 180px;
+}
+.magazine .container .box {
+  top: 290px;
+  right: 20px;
+  border-radius: 5px;
+  width: 190px;
+  height: 63px;
+}
+.magazine .container .box h6 {
+  font-size: 16px;
+  color: #35465E;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.magazine .container .box p {
+  font-size: 10px;
+  color: #35465E;
+}
+
+.features {
+  margin-top: 100px;
+}
+.features .box {
+  width: 558px;
+  height: 414px;
+  background: #FFFFFF;
+  box-shadow: 0px -8px 14px rgba(53, 70, 94, 0.02), 0px 50px 80px rgba(53, 70, 94, 0.1);
+  border-radius: 5px;
+  top: 600px;
+  left: 150px;
+  padding: 40px;
+}
+.features .box h4 {
+  color: #35465E;
+  font-size: 24px;
+  font-weight: 700;
+}
+.features .box p {
+  color: #35465E;
+}
+.features .box .paragraph1 {
+  padding-top: 20px;
+}
+.features .box .paragraph3 {
+  font-size: 24px;
+}
+
+.about_house {
+  padding-top: 300px;
+}
+.about_house .col-sm-7 {
+  padding-top: 70px;
+}
+.about_house .col-sm-7 h2 {
+  font-weight: 700;
+  color: #35465E;
+}
+.about_house .col-sm-7 p {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #35465E;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 20px;
+}
+
+.property .container {
+  background: #FFFFFF;
+  box-shadow: 0px -8px 14px rgba(53, 70, 94, 0.02), 0px 50px 80px rgba(53, 70, 94, 0.1);
+  border-radius: 5px;
+  margin-top: 150px;
+  padding: 80px;
+}
+.property .col-sm-7 h2 {
+  font-weight: 700;
+  color: #35465E;
+  padding-right: 100px;
+}
+.property .col-sm-7 .btn {
+  --bs-btn-font-size: 13px;
+  background-color: #F2F2F2;
+  margin-top: 20px;
+}
+.property .col-sm-7 h6 {
+  font-weight: 700;
+  color: #35465E;
+  padding: 20px 0 10px;
+}
+.property .col-sm-7 p {
+  color: #35465E;
+  padding-right: 140px;
+  margin-bottom: 0;
+}
+.property .box {
+  background: #F2F2F2;
+  border-radius: 5px;
+  padding: 40px;
+}
+.property .box h5 {
+  font-weight: 700;
+  color: #35465E;
+}
+.property .box .form-control {
+  margin-top: 30px;
+}
+
+.map {
+  padding-top: 100px;
+}
+.map h3 {
+  font-weight: 700;
+  color: #35465E;
+}
+.map .iframe {
+  margin-top: 100px;
+}
+.map .img1 {
+  top: 260px;
+}
+.map .img2 {
+  top: 400px;
+  left: 0;
+}
+
+footer {
+  padding-top: 100px;
+  background-image: url("../images/Rectangle 8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+footer .col-12 {
+  background-color: #FFFFFF;
+  height: 150px;
+  padding: 50px;
+  position: absolute;
+  width: 950px;
+  top: 0;
+  right: 200px;
+}
+footer .col-12 h5 {
+  font-weight: 700;
+  color: #35465E;
+  padding: 0 100px 0 0;
+}
+footer .col-12 .form-control {
+  background-color: #F2F2F2;
+  height: 50px;
+  margin-right: 20px;
+}
+footer .col-12 .btn {
+  height: 50px;
+  padding: 10px 30px;
+}
+footer .img {
+  right: 0;
+  bottom: 0;
+}
+footer .footer {
+  padding-top: 100px;
+}
+footer .footer .box1 .paragraph1 {
+  color: #FFFFFF;
+  padding: 20px 170px 0 20px;
+}
+footer .footer .box2 {
+  color: #FFFFFF;
+  padding-top: 30px;
+}
+footer .footer .box2 .link {
+  color: #FFFFFF;
+  padding-right: 15px;
+}
+footer .footer .box2 i {
+  padding-top: 30px;
+}
+footer .footer .box2 .paragraph2 {
+  font-size: 15px;
+  padding: 20px 380px 0 0;
+}
+
+@media only screen and (max-width: 446.9px) {
+  .container-fluid {
+    max-width: 447px;
+  }
+  header .navbar {
+    max-width: 447px;
+  }
+  header .navbar .lionimg {
+    margin-right: 20px;
+  }
+  header .navbar .icons .phone-number {
+    display: none;
+  }
+  header .home .header_link {
+    padding-left: 15px;
+  }
+  header .home h1 {
+    padding: 20px 0 20px 15px;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  header .home .col-sm-3 h5 {
+    font-size: 18px;
+    padding-left: 15px;
+  }
+  header .home .col-sm-3 p {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  header .home .buttons .btn {
+    font-size: 11px;
+  }
+  header .home .buttons .btn2 {
+    margin-top: 18px;
+  }
+  header .home .d-flex {
+    flex-direction: column;
+  }
+  header .home .d-flex a {
+    margin: 0;
+    margin-top: 20px;
+  }
+  header .home .image {
+    margin: 50px 0 20px 70px;
+  }
+  .magazine .container {
+    margin-top: 50px;
+  }
+  .magazine .container h2 {
+    padding: 0;
+    font-size: 22px;
+  }
+  .magazine .container .paragraph {
+    font-size: 15px;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .magazine .container .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .magazine .container .img1 {
+    display: none;
+  }
+  .magazine .container .img2 {
+    margin: 0;
+  }
+  .magazine .container .box {
+    top: 230px;
+  }
+  .features .box {
+    width: 320px;
+    left: 0;
+    padding: 30px;
+    top: 150px;
+    margin-left: 20px;
+    height: 480px;
+  }
+  .features .box h4 {
+    font-size: 22px;
+  }
+  .features .box p {
+    font-size: 15px;
+  }
+  .about_house {
+    padding-top: 500px;
+  }
+  .about_house .col-sm-7 h2 {
+    padding: 0 15px;
+  }
+  .about_house .col-sm-7 p {
+    padding: 0 15px;
+  }
+  .about_house .col-sm-7 .btn {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .property .container {
+    margin-top: 100px;
+    padding: 0;
+  }
+  .property .col-sm-7 h2 {
+    padding-left: 25px;
+    padding-right: 0;
+  }
+  .property .col-sm-7 .btn {
+    margin-left: 20px;
+  }
+  .property .col-sm-7 h6 {
+    padding: 20px;
+    font-size: 22px;
+  }
+  .property .col-sm-7 p {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .property .box {
+    margin: 20px 30px;
+    padding: 20px;
+  }
+  .property .box h5 {
+    font-size: 18px;
+  }
+  .map h3 {
+    font-size: 27px;
+  }
+  footer {
+    height: 700px;
+  }
+  footer .col-12 {
+    flex-direction: column;
+    width: 320px;
+    height: 250px;
+    right: 10px;
+    top: -150px;
+    padding: 30px;
+  }
+  footer .col-12 h5 {
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  footer .col-12 .form-control {
+    width: 100%;
+    margin: 20px;
+  }
+  footer .col-12 .btn {
+    width: 100%;
+  }
+  footer .footer {
+    flex-direction: column;
+  }
+  footer .footer .box1 {
+    margin-left: 40px;
+  }
+  footer .footer .box1 .paragraph1 {
+    padding: 0;
+    padding: 20px 0 0 20px;
+  }
+  footer .footer .box2 .paragraph2 {
+    padding: 20px 40px;
+    text-align: center;
+  }
+  footer .footer .box2 .link {
+    padding-left: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
